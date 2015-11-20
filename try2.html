@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>liamdouglass</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="website.css" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script>
+    function fadeIn(el){
+        element.style.opacity = 0;
+        var elem =document.getElementById(el);
+        elem.style.transition = "opacity .75s linear .25s";
+        element.style.opacity = 1;
+    }
+    $(document).ready(function(){
+        $(window).scroll(function(event){
+            var y = $(this).scrollTop();
+            if(y>=700){
+                $('box1').addClass('animate');
+            }
+        });
+    });
+
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+
+    <nav class = "navbar navbar-default">
+        <div class="container-fluid" id="top">
+
+            <!--logo-->
+            <div class="navbar-header">
+
+                <img src="images/imageTest.jpg" class="img-rounded" width="100" height = "50">
+
+            </div>
+            <!--Items-->
+            <div>
+                <ul class="nav navbar-nav">
+                    <li role="presentation"><a href="http://localhost:63342/SourceCode/try2.html">Home</a></li>
+                    <li role="presentation"><a href="#">About</a></li>
+                    <li role="presentation"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="jumbotron" id="top2">
+        <a href="https://www.facebook.com/liam.douglass.37">
+        <p style="text-align:center"></animation><img src="images/LiamDouglassImage.jpg" class="img-circle" width="230" height="230"></p>
+        </a>
+        <h1 class="text-center" >Liam Douglass</h1>
+        <p class="text-center">Human Male With Sub-standard Hand-Eye Coordination. </p>
+        <p style="text-align:center"><a class="btn btn-lg btn-success" href="#" role="button">Resume</a></p>
+    </div>
+
+    <div class="row marketing"id="middle">
+        <div class="col-lg-6">
+            <h4>Computer Science</h4>
+            <p>Sophomore Studying Computer Science at <a href="http://www.gwu.edu/">The George Washington University</a></p>
+
+            <h4>Animation</h4>
+            <p>3ds Max 2016 <a href="https://vimeo.com/94502406">Video Link</a></p>
+
+            <h4>Beekeeping</h4>
+            <p>Beekeeper at <a href="http://gwbuzz.com">The George Washington University Honey Bee Research Lab</a></p>
+        </div>
+
+        <div class="col-lg-6">
+            <h4>Subheading</h4>
+            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+            <h4>Subheading</h4>
+            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+            <h4>Subheading</h4>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+    </div><hr class="featurette-divider">
+
+<div id="box1">
+    <button onclick="fadeIn('box1');">button</button>
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">CompSci <span class="text-muted">Web Development and Software Engineering</span></h2>
+            <p class="lead">Academic experience developing software in high and low-level programming languages as well as HTML-5 and CSS. Intern at Creative Science Labs in Washington, DC Spring of 2016.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="images/computerscience.jpg" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">Animation <span class="text-muted">3D Animation and Modeling</span></h2>
+            <p class="lead">Advanced coursework using Maya and 3ds Max design environments. Short film presented at GWU Animation Festival 2015</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="images/computer-animation-400.jpg" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Beekeeper <span class="text-muted"> Head Researcher</span></h2>
+            <p class="lead">Conducted research professionally at the GWU Apiary studying Colony Collapse Disorder. Lead a research team of five analysing sperm motility and longevity.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="images/bees.jpg" alt="Generic placeholder image">
+        </div>
+    </div>
+</div>
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+
+</div><!-- /.container -->
+
+<footer class="footer">
+        <p>&copy; LiamIsACoolDood</p>
+    </footer>
+
+</div> <!-- /container -->
+
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
