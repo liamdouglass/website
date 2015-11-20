@@ -1,0 +1,23 @@
+#top{
+    background-color: #388E8E !important;
+}
+#top2{
+    background-color: #388E8E;
+}
+#middle{
+    background-color: #7D9EC0;
+}
+#middle2{
+    background-color: cornflowerblue;
+}
+.animate{
+    transition: 2s ease-in-out;
+
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+
+}
+box1.animate{
+    transform: translate(5em,0);
+
+}
